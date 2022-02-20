@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+nav img {
+    margin-left: 50px;
+    max-width: 100px;
+}
+
+.wrapper {
+    display: grid;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1/5;
+    height: 120px;
+    justify-self: flex-end;
+    margin-top: 25%;
+}
+
+.two {
+    grid-column: 2;
+    grid-row: 1/2;
+    height: 75px;
+    justify-self: center;
+}
+
+.three{
+    grid-column: 2;
+    grid-row: 2/2;
+    height: 120px;
+    margin-top: -35%;
+    justify-self: center;
+}
+
+.four {
+    grid-column: 3;
+    grid-row: 1/2;
+    height: 120px;
+    margin-top: 15%;
+    justify-self: center;
+}
+
+.five{
+    grid-column: 3;
+    grid-row: 2/2;
+    height: 120px;
+    margin-top: 5%;
+    justify-self: center;
+}
+
+.six{
+    grid-column: 4;
+    grid-row: 1/2;
+    height: 120px;
+    margin-top: -15%;
+    justify-self: center;
+}
+
+.seven{
+    grid-column: 4;
+    grid-row: 2/2;
+    height: 120px;
+    justify-self: center;
+    margin-top: -25%;
+}
+
+.eight {
+    grid-column: 5;
+    grid-row: 1/2;
+    height: 120px;
+}
+
+.nine{
+    grid-column: 5;
+    grid-row: 2/2;
+    height: 120px;
+}
+
+.title {
+    margin-left: 5%;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 40px;
+}
+
+.title p {
+    line-height: 18px;
+    width: 30%;
+}
+
+.card {
+    margin-top: 100px;
+    margin-left: 5%;
+    position: relative;
+}
+
+.photo {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.sold-out {
+    position: absolute;
+    padding: 5px;
+    left: 10px;
+    top: 10px;
+    background: white;
+    border-radius: 5px;
+}
+
+.card-desc {
+    margin: 0;
+}
+
+.light {
+    color: lightgray;
+}
+
+.card-container{
+    display: flex;
+}
